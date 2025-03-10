@@ -1,0 +1,9 @@
+# action.yml
+name: 'Get Last Tag'
+description: 'Get the latest tag'
+outputs:
+  last-tag: # id of output
+    description: 'The latest tag'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
